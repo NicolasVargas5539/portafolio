@@ -67,6 +67,10 @@ export class Cards1Component {
     {
       img: '../../../../assets/node.svg',
       description: 'NodeJs'
+    },
+    {
+      img: '../../../../assets/github.svg',
+      description: 'Github'
     }
   ]
 

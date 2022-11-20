@@ -7,8 +7,17 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li *ngFor="let item of navbar; index as i" class="nav-item">
-            <a class="btn ms-2">{{item}}</a>
+          <li class="nav-item">
+            <a class="btn ms-2" routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" >Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn ms-2" routerLinkActive="active" routerLink="habilidades">Habilidades</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn ms-2" routerLinkActive="active" routerLink="proyectos">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn ms-2" routerLinkActive="active" routerLink="sobre-mi">Sobre Mi</a>
           </li>
         </ul>
         <span class="navbar-text">

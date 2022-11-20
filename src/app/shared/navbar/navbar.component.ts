@@ -7,11 +7,5 @@ import { Component } from '@angular/core';
 })
 export class NavbarComponent {
 
-  navbar: string[];
-
-  constructor() {
-    this.navbar = ['Inicio', 'Habilidades', 'Proyectos', 'Sobre Mi']
-  }
-
-
+  constructor() { }
 }

@@ -10,12 +10,13 @@ i, a, span{
 .btn, .red{
   border: none;
   font-weight: 500;
-  border-radius: 0;
+  border-radius: 12px;
   transition: .6s !important;
 }
 .btn:hover, .red:hover{
-  color: rgb(130, 130, 130);
+  color: rgb(181, 144, 250);
 }
-.btn:active, .red:active{
-  color: rgb(130, 130, 130);
+.active{
+  color: rgb(167, 112, 255);
+  font-weight: 500;
 }

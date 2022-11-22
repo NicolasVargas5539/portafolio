@@ -6,7 +6,20 @@ import { Component } from '@angular/core';
   styleUrls: ['./cards1.component.css']
 })
 export class Cards1Component {
-
+  array: any[] = [
+    {
+      path: 'arraySkillsFe',
+      name: 'Front-End'
+    },
+    {
+      path: 'arraySkillsBe',
+      name: 'Back-End'
+    },
+    {
+      path: 'arraySkillsO',
+      name: 'Otras Tecnologías'
+    }
+  ]
   arraySkillsFe: any[] = [
     {
       img: '../../../../assets/html5.svg',
@@ -71,20 +84,6 @@ export class Cards1Component {
     {
       img: '../../../../assets/github.svg',
       description: 'Github'
-    }
-  ]
-  array: any[] = [
-    {
-      path: 'arraySkillsFe',
-      name: 'Front-End'
-    },
-    {
-      path: 'arraySkillsBe',
-      name: 'Back-End'
-    },
-    {
-      path: 'arraySkillsO',
-      name: 'Otras Tecnologías'
     }
   ]
   constructor() { }

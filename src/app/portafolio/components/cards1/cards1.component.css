@@ -1,13 +1,12 @@
 .skill{
   background-color: rgba(255, 255, 255, 0.5);
   box-shadow: 8px 8px 20px rgba(110, 110, 110, 0.5);
-  height: 25vh;
+  height: 28vh;
   transition: 1s;
 }
 .skill:hover{
   background-color: rgb(255, 255, 255);
   box-shadow: 8px 8px 20px rgba(110, 110, 110, 0.5);
-  height: 25vh;
 }
 .hab{
   height: 100%;
@@ -28,6 +27,5 @@ h2{
   .skill:hover{
     background-color: rgb(255, 255, 255);
     box-shadow: 8px 8px 20px rgba(110, 110, 110, 0.5);
-    height: 35vh;
   }
 }

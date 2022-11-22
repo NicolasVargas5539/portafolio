@@ -1,32 +1,14 @@
-<h2 class="fw-bold">Front-End</h2>
-<div class="row mb-3">
-  <div class="col-12 skill rounded-4 text-center">
-    <div class="row justify-content-center align-items-center hab">
-      <div class="col-4" *ngFor="let item of arraySkillsFe; index as i">
-        <img src="{{item.img}}">
-        <p class="fw-bold">{{item.description}}</p>
-      </div>
-    </div>
-  </div>
-</div>
-<h2 class="fw-bold">Back-End</h2>
-<div class="row mb-3">
-  <div class="col-12 skill rounded-4 text-center">
-    <div class="row justify-content-center align-items-center hab">
-      <div class="col-4" *ngFor="let item of arraySkillsBe; index as i">
-        <img src="{{item.img}}">
-        <p class="fw-bold">{{item.description}}</p>
-      </div>
-    </div>
-  </div>
-</div>
-<h2 class="fw-bold">Otras</h2>
-<div class="row mb-3">
-  <div class="col-12 skill rounded-4 text-center">
-    <div class="row justify-content-center align-items-center hab">
-      <div class="col-4" *ngFor="let item of arraySkillsO; index as i">
-        <img src="{{item.img}}">
-        <p class="fw-bold">{{item.description}}</p>
+<div class="row justify-content-center">
+  <div class="col-5 ms-4 mb-4" *ngFor="let item of array; index as i">
+    <div class="row animate__animated animate__zoomInDown">
+      <h2 class="fw-bold text-start">{{item.name}}</h2>
+      <div class="rounded-4 skill text-center">
+        <div class="row justify-content-center align-items-center hab">
+          <div class="col-4" *ngFor="let item of arraySkillsFe; index as i">
+            <img src="{{item.img}}">
+            <p class="fw-bold">{{item.description}}</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>

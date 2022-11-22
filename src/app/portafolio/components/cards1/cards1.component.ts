@@ -73,7 +73,20 @@ export class Cards1Component {
       description: 'Github'
     }
   ]
-
+  array: any[] = [
+    {
+      path: 'arraySkillsFe',
+      name: 'Front-End'
+    },
+    {
+      path: 'arraySkillsBe',
+      name: 'Back-End'
+    },
+    {
+      path: 'arraySkillsO',
+      name: 'Otras Tecnologías'
+    }
+  ]
   constructor() { }
 
 }

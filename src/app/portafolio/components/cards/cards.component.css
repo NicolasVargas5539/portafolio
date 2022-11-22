@@ -1,0 +1,16 @@
+.projects{
+  padding-top:5rem ;
+  height: 100vh;
+}
+.card{
+  background-color: rgba(69, 69, 69, 0.3) !important;
+  border-radius: 15px;
+}
+img{
+  border-bottom: 15px;
+  cursor:pointer;
+}
+.btn{
+  border: none;
+  font-weight: 500;
+}

@@ -1,1 +1,10 @@
-<p>cards works!</p>
+<div class="row justify-content-center projects">
+  <div *ngFor="let item of contCards; index as i" class="col-xl-4 col-12 mb-3 animate__animated animate__zoomInDown">
+    <div class="card">
+      <img src="{{item.img}}" class="card-img-top">
+      <div class="card-body text-center d-grid gap-2">
+        <a class="btn btn-outline-light">Ver Proyecto</a>
+      </div>
+    </div>
+  </div>
+</div>

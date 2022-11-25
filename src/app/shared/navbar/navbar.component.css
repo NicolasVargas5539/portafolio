@@ -1,6 +1,6 @@
 .navbar{
-  background-color:rgba(42, 42, 42, 0.283);
-  border-bottom: 1px solid rgb(171, 171, 171);
+  background-color:rgba(17, 17, 17, 0.955);
+  border-bottom: 1px solid #057ABB;;
 }
 i, a, span{
   border: none;
@@ -14,16 +14,26 @@ i, a, span{
   transition: .6s !important;
 }
 .btn:hover, .red:hover{
-  color: rgb(181, 144, 250);
+  color: #057ABB;
 }
 .active{
-  color: rgb(167, 112, 255);
+  color: #057ABB;
   font-weight: 500;
 }
-
+.navbar-brand{
+  border-radius: 20px;
+  background: linear-gradient(150deg, #057ABB, #003653);
+  transition: .7s;
+  font-weight: 500;
+}
+.navbar-brand:hover{
+  border-radius: 20px;
+  background: linear-gradient(150deg, #057ABB, #003653);
+  transition: .7s;
+}
 @media(max-width:990px) {
   .navbar{
-    background-color:rgba(42, 42, 42, 0.9999);
+    background-color:rgba(17, 17, 17, 0.955);
     border-bottom: 1px solid rgb(171, 171, 171);
   }
 }

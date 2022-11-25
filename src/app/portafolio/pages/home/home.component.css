@@ -3,26 +3,22 @@
 }
 .title{
   font-size: 100px;
-  font-family:'Times New Roman', Times, serif;
   font-weight: 700;
   color: rgb(207, 207, 207);
 }
 .subTitle{
   font-size: 50px;
-  font-family:'Times New Roman', Times, serif;
   font-weight: 700;
   color: rgb(207, 207, 207);
 }
 @media(max-width:900px) {
   .title{
     font-size: 40px;
-    font-family:'Times New Roman', Times, serif;
     font-weight: 500;
     color: rgb(156, 168, 168);
   }
   .subTitle{
     font-size: 20px;
-    font-family:'Times New Roman', Times, serif;
     font-weight: 500;
     color: rgb(156, 168, 168);
   }

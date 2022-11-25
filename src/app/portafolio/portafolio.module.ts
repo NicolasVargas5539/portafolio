@@ -6,7 +6,7 @@ import { ProjectsComponent } from './pages/projects/projects.component';
 import { SkillsComponent } from './pages/skills/skills.component';
 import { AppRoutingModule } from '../app-routing.module';
 import { CardsComponent } from './components/cards/cards.component';
-import { Cards1Component } from './components/cards1/cards1.component';
+import { Project1Component } from './pages/projects/project1/project1.component';
 
 
 
@@ -17,7 +17,7 @@ import { Cards1Component } from './components/cards1/cards1.component';
     ProjectsComponent,
     SkillsComponent,
     CardsComponent,
-    Cards1Component
+    Project1Component,
   ],
   exports: [
     AboutMeComponent,

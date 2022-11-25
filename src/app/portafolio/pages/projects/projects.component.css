@@ -1,7 +1,16 @@
 .projects{
-  padding-top:5rem ;
+  padding-top: 4em;
   height: 100vh;
+}
+h1 {
+  font-size: 4rem;
+  color: rgb(255, 255, 255);
 }
 .title{
   color: azure;
+}
+@media(max-width:900px) {
+  h1 {
+    font-size: 3em;
+  }
 }

@@ -6,6 +6,23 @@
   font-weight: 700;
   color: rgb(207, 207, 207);
 }
+
+span{
+  display: block;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 12ch;
+
+  animation: typing 3s steps(13),
+  blink .4s infinite step-end alternate;
+  overflow: hidden;
+}
+@keyframes typing{
+  from { width: 0;}
+}
+@keyframes blink{
+  60%{ border-color: transparent;}
+}
 .subTitle{
   font-size: 50px;
   font-weight: 700;

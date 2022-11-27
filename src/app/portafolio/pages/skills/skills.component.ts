@@ -6,83 +6,65 @@ import { Component } from '@angular/core';
   styleUrls: ['./skills.component.css']
 })
 export class SkillsComponent {
-  array: any[] = [
-    {
-      path: 'arraySkillsFe',
-      name: 'Front-End'
-    },
-    {
-      path: 'arraySkillsBe',
-      name: 'Back-End'
-    },
-    {
-      path: 'arraySkillsO',
-      name: 'Otras Tecnologías'
-    }
-  ]
   arraySkillsFe: any[] = [
     {
-      img: '../../../../assets/html5.svg',
+      img: '../../../../assets/Html5_Col.svg',
       description: 'HTML5'
     },
     {
-      img: '../../../../assets/css3.svg',
+      img: '../../../../assets/CSS3_Col.svg',
       description: 'CCS3',
     },
     {
-      img: '../../../../assets/js.svg',
+      img: '../../../../assets/javascript_Col_.svg',
       description: 'JavaScript',
     },
     {
-      img: '../../../../assets/TypeScript.svg',
+      img: '../../../../assets/typescript_Col.svg',
       description: 'TypeScript',
     },
     {
-      img: '../../../../assets/angular.svg',
+      img: '../../../../assets/angular_Col.svg',
       description: 'Angular',
     },
     {
-      img: '../../../../assets/bootstrap.svg',
+      img: '../../../../assets/bootstrap-5_Col.svg',
       description: 'Bootstrap5',
     }
   ]
   arraySkillsBe: any[] = [
     {
-      img: '../../../../assets/python.svg',
+      img: '../../../../assets/python_Col.svg',
       description: 'Python'
     },
     {
-      img: '../../../../assets/php.svg',
-      description: 'PHP'
-    },
-    {
-      img: '../../../../assets/mongodb.svg',
+      img: '../../../../assets/mongodb_Col.svg',
       description: 'mongodb'
     },
     {
-      img: '../../../../assets/java.svg',
+      img: '../../../../assets/java_Col.svg',
       description: 'Java'
     },
     {
-      img: '../../../../assets/slq.svg',
+      img: '../../../../assets/mysql_Col.svg',
       description: 'SQL'
     },
   ]
   arraySkillsO: any[] = [
     {
-      img: '../../../../assets/figma.svg',
+      img: '../../../../assets/figma_Col.svg',
       description: 'Figma'
     },
     {
-      img: '../../../../assets/oracle.svg',
+      img: '../../../../assets/oracle_Col.svg',
       description: 'PL-SQL'
     },
     {
-      img: '../../../../assets/node.svg',
+      img: '../../../../assets/nodejs_Col.svg',
       description: 'NodeJs'
     },
     {
-      img: '../../../../assets/github.svg',
+      img: '../../../../assets/github_Col.svg',
       description: 'Github'
     }
   ]

@@ -9,19 +9,16 @@ export class Project1Component {
 
   arr : any[] = [
     {
-      path:'../../../../../assets/html5.svg',
+      path:'../../../../../assets/Html5_Col.svg',
     },
     {
-      path:'../../../../../assets/css3.svg',
+      path:'../../../../../assets/CSS3_Col.svg',
     },
     {
-      path:'../../../../../assets/typescript2.svg',
+      path:'../../../../../assets/typescript_Col.svg',
     },
     {
-      path:'../../../../../assets/js.svg',
-    },
-    {
-      path:'../../../../../assets/github.svg',
+      path:'../../../../../assets/javascript_Col_.svg',
     }
   ]
 

@@ -4,7 +4,7 @@ import { AboutMeComponent } from './portafolio/pages/about-me/about-me.component
 import { HomeComponent } from './portafolio/pages/home/home.component';
 import { ProjectsComponent } from './portafolio/pages/projects/projects.component';
 import { SkillsComponent } from './portafolio/pages/skills/skills.component';
-import { Project1Component } from './portafolio/pages/projects/project1/project1.component';
+import { Project1Component } from './portafolio/pages/pMapbox/project1.component';
 
 const routes: Routes = [
   {
@@ -26,7 +26,7 @@ const routes: Routes = [
 
   },
   {
-    path: 'proyectos/:id',
+    path: 'proyectos/pMapbox',
     component: Project1Component
   }
 ];

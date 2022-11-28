@@ -5,6 +5,7 @@ import { HomeComponent } from './portafolio/pages/home/home.component';
 import { ProjectsComponent } from './portafolio/pages/projects/projects.component';
 import { SkillsComponent } from './portafolio/pages/skills/skills.component';
 import { Project1Component } from './portafolio/pages/pMapbox/project1.component';
+import { PCrudAngularComponent } from './portafolio/pages/p-crud-angular/p-crud-angular.component';
 
 const routes: Routes = [
   {
@@ -28,6 +29,10 @@ const routes: Routes = [
   {
     path: 'proyectos/pMapbox',
     component: Project1Component
+  },
+  {
+    path: 'proyectos/pCrudAngular',
+    component: PCrudAngularComponent
   }
 ];
 

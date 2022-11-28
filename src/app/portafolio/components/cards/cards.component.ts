@@ -13,7 +13,7 @@ export class CardsComponent {
     {
       img: '../../../../assets/bases de datos.png',
       desc: 'Un Crud en Angular con una api rest de php',
-      rout: 'project1'
+      rout: 'pCrudAngular'
     },
     {
       img: '../../../../assets/Login.jpg',

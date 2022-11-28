@@ -7,6 +7,8 @@ import { SkillsComponent } from './pages/skills/skills.component';
 import { AppRoutingModule } from '../app-routing.module';
 import { CardsComponent } from './components/cards/cards.component';
 import { Project1Component } from './pages/pMapbox/project1.component';
+import { PCrudAngularComponent } from './pages/p-crud-angular/p-crud-angular.component';
+import { PorProjectoComponent } from './components/por-projecto/por-projecto.component';
 
 
 
@@ -18,6 +20,8 @@ import { Project1Component } from './pages/pMapbox/project1.component';
     SkillsComponent,
     CardsComponent,
     Project1Component,
+    PCrudAngularComponent,
+    PorProjectoComponent,
   ],
   exports: [
     AboutMeComponent,

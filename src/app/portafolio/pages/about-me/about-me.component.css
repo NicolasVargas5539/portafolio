@@ -33,13 +33,6 @@ img{
   max-width: 25rem;
   margin: auto;
 }
-i, p{
-  color: azure;
-  transition: .7s;
-}
-i:hover{
-  color: rgb(83, 88, 88);
-}
 @media(max-width:1200px) {
   .info{
     padding: 3rem;

@@ -8,63 +8,63 @@ import { Component } from '@angular/core';
 export class SkillsComponent {
   arraySkillsFe: any[] = [
     {
-      img: '../../../../assets/Html5_Col.svg',
+      img: '../../../../assets/icon/Html5_Col.svg',
       description: 'HTML5'
     },
     {
-      img: '../../../../assets/CSS3_Col.svg',
+      img: '../../../../assets/icon/CSS3_Col.svg',
       description: 'CCS3',
     },
     {
-      img: '../../../../assets/javascript_Col_.svg',
+      img: '../../../../assets/icon/javascript_Col_.svg',
       description: 'JavaScript',
     },
     {
-      img: '../../../../assets/typescript_Col.svg',
+      img: '../../../../assets/icon/typescript_Col.svg',
       description: 'TypeScript',
     },
     {
-      img: '../../../../assets/angular_Col.svg',
+      img: '../../../../assets/icon/angular_Col.svg',
       description: 'Angular',
     },
     {
-      img: '../../../../assets/bootstrap-5_Col.svg',
+      img: '../../../../assets/icon/bootstrap-5_Col.svg',
       description: 'Bootstrap5',
     }
   ]
   arraySkillsBe: any[] = [
     {
-      img: '../../../../assets/python_Col.svg',
+      img: '../../../../assets/icon/python_Col.svg',
       description: 'Python'
     },
     {
-      img: '../../../../assets/mongodb_Col.svg',
+      img: '../../../../assets/icon/mongodb_Col.svg',
       description: 'mongodb'
     },
     {
-      img: '../../../../assets/java_Col.svg',
+      img: '../../../../assets/icon/java_Col.svg',
       description: 'Java'
     },
     {
-      img: '../../../../assets/mysql_Col.svg',
+      img: '../../../../assets/icon/mysql_Col.svg',
       description: 'SQL'
     },
   ]
   arraySkillsO: any[] = [
     {
-      img: '../../../../assets/figma_Col.svg',
+      img: '../../../../assets/icon/figma_Col.svg',
       description: 'Figma'
     },
     {
-      img: '../../../../assets/oracle_Col.svg',
+      img: '../../../../assets/icon/oracle_Col.svg',
       description: 'PL-SQL'
     },
     {
-      img: '../../../../assets/nodejs_Col.svg',
+      img: '../../../../assets/icon/nodejs_Col.svg',
       description: 'NodeJs'
     },
     {
-      img: '../../../../assets/github_Col.svg',
+      img: '../../../../assets/icon/github_Col.svg',
       description: 'Github'
     }
   ]

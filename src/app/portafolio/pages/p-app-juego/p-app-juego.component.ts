@@ -9,10 +9,10 @@ export class PAppJuegoComponent {
 
   arr : any[] = [
     {
-      path:'../../../../../assets/csharp_Col.svg',
+      path:'../../../../../assets/icon/csharp_Col.svg',
     },
     {
-      path:'../../../../../assets/Unity_Col.svg',
+      path:'../../../../../assets/icon/Unity_Col.svg',
     }
   ]
 

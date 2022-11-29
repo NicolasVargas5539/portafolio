@@ -1,0 +1,38 @@
+.project{
+  margin-top: 6em;
+  height: 100%;
+  padding-bottom: 2em;
+  border-radius: 25px;
+  background-color:rgba(140, 140, 140, 0.7);
+  box-shadow: 20px 10px 20px rgba(64, 64, 64, 0.5);
+  transition: .7s;
+}
+.project:hover{
+  background-color:rgba(212, 212, 212, 0.7);
+}
+p, h1, h3, h4{
+  color: aliceblue;
+}
+.icon{
+  color: black;
+  transition: .5s;
+}
+.icon:hover{
+  color: #055abb;
+}
+img{
+  color: aqua;
+}
+.img-fluid{
+  box-shadow: 8px 8px 16px rgb(88, 88, 88);
+  transition: .7s;
+}
+.img-fluid:hover{
+  box-shadow: 10px 10px 20px rgb(42, 42, 42);
+}
+@media(max-width:1200px) {
+  .project{
+    height: 100%;
+    padding-bottom: 2em;
+  }
+}

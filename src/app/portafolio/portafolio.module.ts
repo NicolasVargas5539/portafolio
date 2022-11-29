@@ -9,6 +9,10 @@ import { CardsComponent } from './components/cards/cards.component';
 import { Project1Component } from './pages/pMapbox/project1.component';
 import { PCrudAngularComponent } from './pages/p-crud-angular/p-crud-angular.component';
 import { PorProjectoComponent } from './components/por-projecto/por-projecto.component';
+import { PLoginComponent } from './pages/p-login/p-login.component';
+import { PAppGifsComponent } from './pages/p-app-gifs/p-app-gifs.component';
+import { PAppPaisesComponent } from './pages/p-app-paises/p-app-paises.component';
+import { PAppJuegoComponent } from './pages/p-app-juego/p-app-juego.component';
 
 
 
@@ -22,6 +26,10 @@ import { PorProjectoComponent } from './components/por-projecto/por-projecto.com
     Project1Component,
     PCrudAngularComponent,
     PorProjectoComponent,
+    PLoginComponent,
+    PAppGifsComponent,
+    PAppPaisesComponent,
+    PAppJuegoComponent,
   ],
   exports: [
     AboutMeComponent,

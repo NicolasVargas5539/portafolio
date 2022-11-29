@@ -13,32 +13,32 @@ export class CardsComponent {
     {
       img: '../../../../assets/img/bases de datos.png',
       desc: 'Un Crud en Angular con una api rest de php',
-      rout: 'pCrudAngular'
+      rout: 'CrudAngular'
     },
     {
       img: '../../../../assets/img/Login.jpg',
       desc: 'Un login conectado a una base de datos con token',
-      rout: 'project1'
+      rout: 'Login'
     },
     {
       img: '../../../../assets/img/Gifs-Angular.jpg',
       desc: 'Una aplicacion en Angular para buscar gifs',
-      rout: 'project1'
+      rout: 'Gifs'
     },
     {
       img: '../../../../assets/img/Mapbox.jpg',
       desc: 'Un mapa en Angular en tiempo real',
-      rout: 'pMapbox'
+      rout: 'Mapbox'
     },
     {
       img: '../../../../assets/img/Paises.jpg',
       desc: 'Una aplicacion que muestra datos de paises',
-      rout: 'project1'
+      rout: 'PaisesApp'
     },
     {
       img: '../../../../assets/img/VideoJuegos.jpg',
       desc: 'Un prototipo de juego realizado en Unity',
-      rout: 'project1'
+      rout: 'Juego'
     }
   ]
 }

@@ -1,3 +1,4 @@
-body{
-  background-image: url( app/portafolio/img/Fondo.jpg );
+body {
+  background-image: url(app/portafolio/img/Fondo.jpg );
+  font-family: 'Ubuntu', sans-serif;
 }

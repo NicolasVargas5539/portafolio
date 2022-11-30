@@ -25,6 +25,7 @@ span{
   animation: typing 3s steps(13),
   blink .4s infinite step-end alternate;
   overflow: hidden;
+  animation-delay: .7s;
 }
 @keyframes typing{
   from { width: 0;}

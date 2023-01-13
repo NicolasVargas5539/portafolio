@@ -2,3 +2,8 @@ body {
   background-image: url(app/portafolio/img/Fondo.jpg );
   font-family: 'Ubuntu', sans-serif;
 }
+/*
+html, body { height: 100%; }
+body {
+  margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;
+} */

@@ -1,3 +1,11 @@
+mat-sidenav {
+  width: 13em;
+}
+
+/* .fondo{
+  background-image: url('/src/assets/img/Fondo.jpg') !important;
+} */
+
 .row{
   height: 100vh;
 }
@@ -20,9 +28,9 @@ span{
   display: block;
   white-space: nowrap;
   border-right: 4px solid;
-  width: 12ch;
+  width: 12.5ch;
 
-  animation: typing 3s steps(13),
+  animation: typing 3s steps(14),
   blink .4s infinite step-end alternate;
   overflow: hidden;
   animation-delay: .7s;

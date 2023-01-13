@@ -1,6 +1,9 @@
 .about-me{
   padding-top: 5em;
 }
+p{
+  font-weight: 300;
+}
 h1 {
   font-size: 3.5rem;
   color: rgb(255, 255, 255);
